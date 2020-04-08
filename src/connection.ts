@@ -2142,6 +2142,8 @@ Connection.prototype.STATE = {
       socketConnect: function() {
         this.sendPreLogin();
         this.transitionTo(this.STATE.SENT_PRELOGIN);
+      },
+      message: function() {
       }
     }
   },
